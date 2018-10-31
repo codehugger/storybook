@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  predicate_definition: one
+  name: MyString
+  parameter_type: one
+
+two:
+  predicate_definition: two
+  name: MyString
+  parameter_type: two

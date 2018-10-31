@@ -1,0 +1,28 @@
+{
+  "problem": {
+    "name": "claim-camelot",
+    "domain": "arthur-kingdom",
+    "objects": [
+      { "name": "arthur", "type": "character" },
+      { "name": "morgana", "type": "character" },
+      { "name": "lake", "type": "place" },
+      { "name": "forest", "type": "place" },
+      { "name": "fortress", "type": "place" },
+      { "name": "camelot", "type": "place" }
+    ],
+    "init": [
+      "(player arthur)"
+      "(alive arthur)"
+      "(alive morgana)"
+      "(at arthur forest)"
+      "(at morgana fortress)"
+      "(at excalibur lake)"
+      "(claimer excalibur)"
+      "(intends arthur (claimed camelot))"
+      "(intends morgana (not arthur alive))"
+    ],
+    "goal": [
+      "(claimed arthur camelot)"
+    ]
+  }
+}

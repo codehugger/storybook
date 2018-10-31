@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  action_inputable: one
+  name: MyString
+  predicate_input: one
+
+two:
+  action_inputable: two
+  name: MyString
+  predicate_input: two

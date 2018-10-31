@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  story_action: one
+  predicate_definition: one
+  negative: false
+
+two:
+  story_action: two
+  predicate_definition: two
+  negative: false

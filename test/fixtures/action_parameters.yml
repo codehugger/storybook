@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  story_action: one
+  name: MyString
+  parameter_type: one
+
+two:
+  story_action: two
+  name: MyString
+  parameter_type: two

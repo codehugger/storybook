@@ -1,0 +1,43 @@
+{
+  "story": {
+    "name": "arthur-kingdom",
+    "predicate_definitions": [
+      "alive":      { "character": "character" },
+      "at":         { "entity": "entity", "place": "place" },
+      "claimed":    { "character": "character", "place": "place" },
+      "claimer":    { "item": "item" },
+      "claimable":  { "place": "place" },
+      "has":        { "character": "character", "item": "item" },
+      "ruined":     { "place": "place" },
+      "weapon":     { "item": "item"}
+    ],
+    "actions": [
+      {
+        "name": "travel",
+        "parameters": { "traveller": "character", "from": "place", "to": "place" },
+        "preconditions": [
+          { "name": "alive",
+            "negative": false,
+            "inputs": { "traveller": "character" }},
+          { "name": "at",
+            "negative": false,
+            "inputs": { "traveller": "character" , "from": "place" }},
+          { "name": "ruined",
+            "negative": true,
+            "inputs": { "to": "place" }},
+        ],
+        "effects": [
+          { "name": "at",
+            "negative": true,
+            "inputs": { "traveller": "character" , "from": "place" }},
+          { "name": "at",
+            "negative": false,
+            "inputs": { "traveller": "character" , "to": "place" }},
+        ],
+        "agents": [
+          "traveller"
+        ]
+      }
+    ]
+  }
+}

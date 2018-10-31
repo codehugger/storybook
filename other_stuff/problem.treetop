@@ -1,0 +1,61 @@
+grammar PDDLProblem
+
+  rule definition
+    '(define' space defBody* space ')'
+  end
+
+  rule defBody
+    problem / domain / objects / init / goal
+  end
+
+  rule problem
+    space '(problem' space name ')' space
+  end
+
+  rule domain
+    space '(:domain' space name space ')' space
+  end
+
+  rule objects
+    space '(:objects' space typedList space ')' space
+  end
+
+  rule init
+    space '(:init' space predicate space ')' space
+  end
+
+  rule goal
+    space '(:goal' space predicate* space ')' space
+  end
+
+  rule predicate
+    '('
+    space
+    ('not' predicate) /
+    ('intends' name predicate) /
+    (name name*)
+    space
+    ')'
+  end
+
+  rule typedList
+    space ((name space '-' space type space typedList) / name) space
+  end
+
+  rule type
+    word
+  end
+
+  rule name
+    word
+  end
+
+  rule word
+    [a-zA-Z\-]*
+  end
+
+  rule space
+    [\s]*
+  end
+
+end
