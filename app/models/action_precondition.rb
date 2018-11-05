@@ -8,6 +8,6 @@ class ActionPrecondition < ApplicationRecord
   delegate :name, to: :predicate_definition
 
   def name
-    "(#{predicate_definition.name} #{action_inputs.map{ |ai| ai.name }.join(", ")})"
+    "(#{predicate_definition.name} #{action_inputs.map{ |ai| ai.name }.join(" ")})"
   end
 end

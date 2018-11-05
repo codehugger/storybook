@@ -4,6 +4,6 @@ class ActionEffect < ApplicationRecord
   has_many :action_inputs, as: :action_inputable
 
   def name
-    "(#{predicate_definition.name} #{action_inputs.map{ |ai| ai.name }.join(", ")})"
+    "(#{predicate_definition.name} #{action_inputs.map{ |ai| ai.name }.join(" ")})"
   end
 end

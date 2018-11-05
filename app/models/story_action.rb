@@ -13,8 +13,8 @@ class StoryAction < ApplicationRecord
                 "(and #{action_preconditions.join(" ")})" :
                 "#{action_preconditions.join(" ")}"}
   :effect #{action_effects.count > 1 ?
-          "(and action_effects.join(" "))" :
-          "action_effects.join(" ")"}
+          "(and #{action_effects.join(" ")})" :
+          "#{action_effects.join(" ")}"}
   :agents (#{action_agents.join(" ")}))}
   end
 
