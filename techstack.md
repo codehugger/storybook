@@ -46,7 +46,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [codehugger/storybook](https://github.com/codehugger/storybook)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|28<br/>Tools used|01/05/24 <br/>Report generated|
+|30<br/>Tools used|01/11/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -209,9 +209,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (12)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (14)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (12)
+## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (14)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -220,6 +220,7 @@ Full tech stack [here](/techstack.md)
 |[jbuilder](https://rubygems.org/jbuilder)|v2.7.0|10/31/18|Bjarki Gudlaugsson |MIT|N/A|
 |[listen](https://rubygems.org/listen)|v3.1.5|10/31/18|Bjarki Gudlaugsson |MIT|N/A|
 |[pg](https://rubygems.org/pg)|v1.1.3|10/31/18|Bjarki Gudlaugsson |BSD-2-Clause|N/A|
+|[rails-erd](https://rubygems.org/rails-erd)|v1.5.2|10/31/18|Bjarki Gudlaugsson |MIT|N/A|
 |[rails_admin](https://rubygems.org/rails_admin)|v1.4.2|10/31/18|Bjarki Gudlaugsson |MIT|[CVE-2020-36190](https://github.com/advisories/GHSA-wjx2-7hqq-8h7m) (Moderate)|
 |[sass-rails](https://rubygems.org/sass-rails)|v5.0.7|10/31/18|Bjarki Gudlaugsson |MIT|N/A|
 |[selenium-webdriver](https://rubygems.org/selenium-webdriver)|v3.14.1|10/31/18|Bjarki Gudlaugsson |Apache-2.0|N/A|
@@ -227,6 +228,7 @@ Full tech stack [here](/techstack.md)
 |[turbolinks](https://rubygems.org/turbolinks)|v5.2.0|10/31/18|Bjarki Gudlaugsson |MIT|N/A|
 |[tzinfo-data](https://rubygems.org/tzinfo-data)|N/A|10/31/18|Bjarki Gudlaugsson |MIT|N/A|
 |[uglifier](https://rubygems.org/uglifier)|v4.1.19|10/31/18|Bjarki Gudlaugsson |MIT|N/A|
+|[web-console](https://rubygems.org/web-console)|v3.7.0|10/31/18|Bjarki Gudlaugsson |MIT|N/A|
 
 <br/>
 <div align='center'>
