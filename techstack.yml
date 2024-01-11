@@ -2,11 +2,11 @@ repo_name: codehugger/storybook
 report_id: a7056a2214215bc425c92b4fd4344aec
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:26:54+00:00'
+timestamp: '2024-01-11T12:12:47+00:00'
 requested_by: codehugger
 provider: github
 branch: master
-detected_tools_count: 28
+detected_tools_count: 30
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -277,6 +277,20 @@ tools:
   detection_source: Gemfile
   last_updated_by: Bjarki Gudlaugsson
   last_updated_on: 2018-10-31 21:19:00.000000000 Z
+- name: rails-erd
+  description: Automatically generate an entity-relationship diagram
+  package_url: https://rubygems.org/rails-erd
+  version: 1.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/codehugger/storybook/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2018-10-31 21:19:00.000000000 Z
 - name: rails_admin
   description: RailsAdmin is a Rails engine that provides an easy-to-use interface
     for managing your data
@@ -380,6 +394,20 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
+  detection_source_url: https://github.com/codehugger/storybook/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2018-10-31 21:19:00.000000000 Z
+- name: web-console
+  description: A debugging tool for your Ruby on Rails applications
+  package_url: https://rubygems.org/web-console
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
   detection_source_url: https://github.com/codehugger/storybook/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Bjarki Gudlaugsson
